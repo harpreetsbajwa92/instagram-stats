@@ -1,14 +1,41 @@
 {
-  "updated": null,
+  "updated": "2026-10-09T17:00:05-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
   },
   "tracks": {
     "regular": {
-      "people": [],
+      "people": [
+        {
+          "handle": "akaybajwa",
+          "name": "A kay Bajwa",
+          "followed": "2026-10-09",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "raghavarora111",
+          "name": "Raghav Arora",
+          "followed": "2026-10-09",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        }
+      ],
       "prospects": [],
-      "days": {}
+      "days": {
+        "2026-10-09": {
+          "follows": 2,
+          "accepted": 0,
+          "texts": 0,
+          "chats": 0,
+          "flagged": 0
+        }
+      }
     },
     "professionals": {
       "people": [],
