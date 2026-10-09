@@ -1,0 +1,8 @@
+{
+  "updated": null,
+  "goals": {"regular": 8, "professionals": 2},
+  "tracks": {
+    "regular": {"people": [], "prospects": []},
+    "professionals": {"people": [], "prospects": []}
+  }
+}
