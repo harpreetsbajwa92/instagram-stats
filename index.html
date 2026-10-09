@@ -256,14 +256,6 @@
         <div class="kpi active"><div class="label">Active chats</div><div class="value" id="kpiActive">0</div><div class="hint">Reciprocal replies</div></div>
         <div class="kpi" style="grid-column:1 / -1;"><div class="label" id="goalLabel">Daily goal</div><div class="value" id="goalValue">0 / 0</div><div class="goal-bar"><i id="goalFill"></i></div></div>
       </div>
-      <div class="form-card" id="proCard">
-        <div style="display:flex;align-items:center;justify-content:space-between;">
-          <h2 style="margin:0;" id="proTitle">People followed</h2>
-          <span class="cx-count" id="proCount">0</span>
-        </div>
-        <p style="font-size:0.75rem;color:var(--text-dim);margin:4px 0 12px;">Everyone followed in this track. Status updates as they follow back, get texted and start chatting. Never cleared.</p>
-        <div id="proList"></div>
-      </div>
       <div class="form-card">
         <div style="display:flex;align-items:center;justify-content:space-between;">
           <h2 style="margin:0;">Good prospects</h2>
@@ -272,6 +264,14 @@
         <p style="font-size:0.75rem;color:var(--text-dim);margin:4px 0 12px;">People who look promising for you to take over. Never cleared.</p>
         <div id="gpNote" style="display:none;font-size:0.75rem;color:#fbbf24;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.3);border-radius:10px;padding:8px 10px;margin-bottom:10px;"></div>
         <div id="gpList"></div>
+      </div>
+      <div class="form-card" id="proCard">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+          <h2 style="margin:0;" id="proTitle">People followed</h2>
+          <span class="cx-count" id="proCount">0</span>
+        </div>
+        <p style="font-size:0.75rem;color:var(--text-dim);margin:4px 0 12px;">Everyone followed in this track. Status updates as they follow back, get texted and start chatting. Never cleared.</p>
+        <div id="proList"></div>
       </div>
     </section>
 
@@ -580,6 +580,6 @@
   renderAll(); load(); setInterval(load, 60000);
 })();
 </script>
-<div id="appVersion" style="text-align:center;font-size:11px;color:#64748b;padding:14px 0 28px;">App version: Oct 9, 4:04 PM (LinkedIn-style rebuild)</div>
+<div id="appVersion" style="text-align:center;font-size:11px;color:#64748b;padding:14px 0 28px;">App version: Oct 9, 4:08 PM (Good prospects above people)</div>
 </body>
 </html>
