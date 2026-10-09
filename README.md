@@ -26,3 +26,5 @@ Never deleted automatically. **Only Harpreet may remove entries** (the Delete bu
     python3 update.py show [--date D]
     ./publish.sh                               # git add/commit/push (uses gh credential helper)
 Auth: gh CLI logged in as harpreetsbajwa92 (same as linkedin-stats). No phone numbers in data.json.
+
+Auto-refresh: publish.sh stamps BUILD in index.html, footer, and version.json each publish; page polls version.json and reloads with ?v=<build>. Always publish via ./publish.sh.
