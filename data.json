@@ -1,8 +1,19 @@
 {
   "updated": null,
-  "goals": {"regular": 8, "professionals": 2},
+  "goals": {
+    "regular": 8,
+    "professionals": 2
+  },
   "tracks": {
-    "regular": {"people": [], "prospects": []},
-    "professionals": {"people": [], "prospects": []}
+    "regular": {
+      "people": [],
+      "prospects": [],
+      "days": {}
+    },
+    "professionals": {
+      "people": [],
+      "prospects": [],
+      "days": {}
+    }
   }
 }
