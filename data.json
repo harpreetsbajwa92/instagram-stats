@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T10:22:09-04:00",
+  "updated": "2026-10-10T13:48:51-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -33,6 +33,69 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "rithiksingh09",
+          "name": "Rithik Singh",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "prabhsharan01",
+          "name": "Singh In Waterloo",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "kwcmandeepphotography",
+          "name": "Mandeep Singh",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "the_photowala_inc",
+          "name": "Vikrant Singh",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "running__grvsandhu",
+          "name": "Gourav Singh Sandhu",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "amanbains93",
+          "name": "Amanjot Bains",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "yyz_udam",
+          "name": "Udam Singh Pawar",
+          "followed": "2026-10-10",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [],
@@ -45,7 +108,7 @@
           "flagged": 0
         },
         "2026-10-10": {
-          "follows": 1,
+          "follows": 8,
           "accepted": 2,
           "texts": 0,
           "chats": 0,
