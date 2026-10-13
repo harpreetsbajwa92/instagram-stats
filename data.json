@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T12:30:11-04:00",
+  "updated": "2026-10-13T13:58:05-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -172,7 +172,68 @@
           "chatDate": null
         }
       ],
-      "prospects": [],
+      "prospects": [
+        {
+          "handle": "macklinomendes",
+          "name": "Macklino Mendes",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "manmeetsekhon",
+          "name": "Manmeet Sekhon Bajwa",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself (shared attachment)"
+        },
+        {
+          "handle": "neeth_wagh",
+          "name": "Vipul Wagh",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself (shared attachment)"
+        },
+        {
+          "handle": "preet.bains96",
+          "name": "Preet Bains",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "ishmeetkk",
+          "name": "Ishmeet Kaur",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "nirmal_ignacy",
+          "name": "Nirmal Ignacy",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "1ndraze",
+          "name": "HNDL",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "singh___manmeet",
+          "name": "Manmeet Singh",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "harshnagdev",
+          "name": "Harsh Nagdev",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "larry_sangha",
+          "name": "Lovraj Sangha",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself (shared attachment)"
+        }
+      ],
       "days": {
         "2026-10-09": {
           "follows": 2,
@@ -193,7 +254,7 @@
           "accepted": 2,
           "texts": 1,
           "chats": 0,
-          "flagged": 0
+          "flagged": 10
         }
       }
     },
