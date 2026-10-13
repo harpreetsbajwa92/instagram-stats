@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T11:47:28-04:00",
+  "updated": "2026-10-13T12:30:11-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -112,7 +112,7 @@
           "handle": "bainsmintu",
           "name": "Mintu Bains",
           "followed": "2026-10-13",
-          "accepted": null,
+          "accepted": "2026-10-13",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -190,7 +190,7 @@
         },
         "2026-10-13": {
           "follows": 8,
-          "accepted": 1,
+          "accepted": 2,
           "texts": 1,
           "chats": 0,
           "flagged": 0
