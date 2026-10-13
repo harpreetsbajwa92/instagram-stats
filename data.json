@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T13:48:51-04:00",
+  "updated": "2026-10-13T11:05:33-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -21,7 +21,9 @@
           "name": "Raghav Arora",
           "followed": "2026-10-09",
           "accepted": "2026-10-10",
-          "texts": [],
+          "texts": [
+            "2026-10-13"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -74,7 +76,7 @@
           "handle": "running__grvsandhu",
           "name": "Gourav Singh Sandhu",
           "followed": "2026-10-10",
-          "accepted": null,
+          "accepted": "2026-10-13",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -96,6 +98,78 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "brarbrampton",
+          "name": "Brar Brampton",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "bainsmintu",
+          "name": "Mintu Bains",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "bajwabladez",
+          "name": "Manni BajwaBladez",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "harpal_.sandhu____",
+          "name": "Harpal Sandhu",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "sidhu_brampton",
+          "name": "Pardeep Singh Sidhu",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "ars0697_waterloo",
+          "name": "Arsh Singh",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "kutzzbyad",
+          "name": "Amrit Dhaliwal",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "virk_jabar_brampton",
+          "name": "Jabarjit Singh",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [],
@@ -113,6 +187,13 @@
           "texts": 0,
           "chats": 0,
           "flagged": 0
+        },
+        "2026-10-13": {
+          "follows": 8,
+          "accepted": 1,
+          "texts": 1,
+          "chats": 0,
+          "flagged": 0
         }
       }
     },
@@ -123,7 +204,9 @@
           "name": "Gurpreet Singh",
           "followed": "2026-10-09",
           "accepted": "2026-10-10",
-          "texts": [],
+          "texts": [
+            "2026-10-13"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -132,7 +215,9 @@
           "name": "Nitesh Verma",
           "followed": "2026-10-09",
           "accepted": "2026-10-10",
-          "texts": [],
+          "texts": [
+            "2026-10-13"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -153,6 +238,24 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "ashwanisoodcpa",
+          "name": "Ashwani Sood CPA",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "harkiran.realestate",
+          "name": "Harkiran Singh",
+          "followed": "2026-10-13",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [],
@@ -168,6 +271,13 @@
           "follows": 2,
           "accepted": 2,
           "texts": 0,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-10-13": {
+          "follows": 2,
+          "accepted": 0,
+          "texts": 2,
           "chats": 0,
           "flagged": 0
         }

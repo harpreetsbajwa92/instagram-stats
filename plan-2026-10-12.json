@@ -1,0 +1,54 @@
+{
+ "inbox": [
+  {
+   "t": "10:15",
+   "done": true
+  },
+  {
+   "t": "11:41",
+   "done": false
+  },
+  {
+   "t": "13:08",
+   "done": false
+  },
+  {
+   "t": "14:31",
+   "done": false
+  },
+  {
+   "t": "16:32",
+   "done": false
+  },
+  {
+   "t": "19:19",
+   "done": false
+  },
+  {
+   "t": "20:48",
+   "done": false
+  }
+ ],
+ "adds": [
+  {
+   "t": "11:30",
+   "done": false
+  },
+  {
+   "t": "12:15",
+   "done": false
+  },
+  {
+   "t": "13:30",
+   "done": false
+  },
+  {
+   "t": "14:15",
+   "done": false
+  },
+  {
+   "t": "15:15",
+   "done": false
+  }
+ ]
+}
