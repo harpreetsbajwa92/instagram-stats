@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T14:25:08-04:00",
+  "updated": "2026-10-13T14:46:03-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -256,6 +256,24 @@
           "name": "Taran Rehill",
           "date": "2026-10-13",
           "note": "Harpreet texted them himself"
+        },
+        {
+          "handle": "mandyk744",
+          "name": "Mandeep Kaur",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself (sent attachments/reel shares)"
+        },
+        {
+          "handle": "simrankaurbal_",
+          "name": "Simran",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself (story reply)"
+        },
+        {
+          "handle": "dhrumilll___",
+          "name": "Dhrumil Vashi",
+          "date": "2026-10-13",
+          "note": "Harpreet texted them himself (personal reel/reaction chat)"
         }
       ],
       "days": {
@@ -278,7 +296,7 @@
           "accepted": 2,
           "texts": 1,
           "chats": 0,
-          "flagged": 14
+          "flagged": 17
         }
       }
     },
