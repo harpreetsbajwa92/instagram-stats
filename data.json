@@ -1,391 +1,288 @@
 {
-  "updated": "2026-10-13T14:46:03-04:00",
-  "goals": {
-    "regular": 8,
-    "professionals": 2
-  },
-  "tracks": {
-    "regular": {
-      "people": [
-        {
-          "handle": "akaybajwa",
-          "name": "A kay Bajwa",
-          "followed": "2026-10-09",
-          "accepted": "2026-10-10",
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "raghavarora111",
-          "name": "Raghav Arora",
-          "followed": "2026-10-09",
-          "accepted": "2026-10-10",
-          "texts": [
-            "2026-10-13"
-          ],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "narinder.singh.rawat",
-          "name": "Narinder Singh Rawat",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "rithiksingh09",
-          "name": "Rithik Singh",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "prabhsharan01",
-          "name": "Singh In Waterloo",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "kwcmandeepphotography",
-          "name": "Mandeep Singh",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "the_photowala_inc",
-          "name": "Vikrant Singh",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "running__grvsandhu",
-          "name": "Gourav Singh Sandhu",
-          "followed": "2026-10-10",
-          "accepted": "2026-10-13",
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "amanbains93",
-          "name": "Amanjot Bains",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "yyz_udam",
-          "name": "Udam Singh Pawar",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "brarbrampton",
-          "name": "Brar Brampton",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "bainsmintu",
-          "name": "Mintu Bains",
-          "followed": "2026-10-13",
-          "accepted": "2026-10-13",
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "bajwabladez",
-          "name": "Manni BajwaBladez",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "harpal_.sandhu____",
-          "name": "Harpal Sandhu",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "sidhu_brampton",
-          "name": "Pardeep Singh Sidhu",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "ars0697_waterloo",
-          "name": "Arsh Singh",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "kutzzbyad",
-          "name": "Amrit Dhaliwal",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "virk_jabar_brampton",
-          "name": "Jabarjit Singh",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        }
-      ],
-      "prospects": [
-        {
-          "handle": "macklinomendes",
-          "name": "Macklino Mendes",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "manmeetsekhon",
-          "name": "Manmeet Sekhon Bajwa",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself (shared attachment)"
-        },
-        {
-          "handle": "neeth_wagh",
-          "name": "Vipul Wagh",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself (shared attachment)"
-        },
-        {
-          "handle": "preet.bains96",
-          "name": "Preet Bains",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "ishmeetkk",
-          "name": "Ishmeet Kaur",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "nirmal_ignacy",
-          "name": "Nirmal Ignacy",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "1ndraze",
-          "name": "HNDL",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "singh___manmeet",
-          "name": "Manmeet Singh",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "harshnagdev",
-          "name": "Harsh Nagdev",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "larry_sangha",
-          "name": "Lovraj Sangha",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself (shared attachment)"
-        },
-        {
-          "handle": "sunchandan.singh",
-          "name": "SUNCHANDAN SINGH VIRDI",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "waliaharsimransingh",
-          "name": "Harsimran singh walia",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "bossmannair",
-          "name": "Sanil Nair",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "taran_rehill",
-          "name": "Taran Rehill",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself"
-        },
-        {
-          "handle": "mandyk744",
-          "name": "Mandeep Kaur",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself (sent attachments/reel shares)"
-        },
-        {
-          "handle": "simrankaurbal_",
-          "name": "Simran",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself (story reply)"
-        },
-        {
-          "handle": "dhrumilll___",
-          "name": "Dhrumil Vashi",
-          "date": "2026-10-13",
-          "note": "Harpreet texted them himself (personal reel/reaction chat)"
-        }
-      ],
-      "days": {
-        "2026-10-09": {
-          "follows": 2,
-          "accepted": 0,
-          "texts": 0,
-          "chats": 0,
-          "flagged": 0
-        },
-        "2026-10-10": {
-          "follows": 8,
-          "accepted": 2,
-          "texts": 0,
-          "chats": 0,
-          "flagged": 0
-        },
-        "2026-10-13": {
-          "follows": 8,
-          "accepted": 2,
-          "texts": 1,
-          "chats": 0,
-          "flagged": 17
-        }
-      }
+ "updated": "2026-10-13T14:46:03-04:00",
+ "goals": {
+  "regular": 8,
+  "professionals": 2
+ },
+ "tracks": {
+  "regular": {
+   "people": [
+    {
+     "handle": "akaybajwa",
+     "name": "A kay Bajwa",
+     "followed": "2026-10-09",
+     "accepted": "2026-10-10",
+     "texts": [],
+     "chat": false,
+     "chatDate": null
     },
-    "professionals": {
-      "people": [
-        {
-          "handle": "gurpreetcpa",
-          "name": "Gurpreet Singh",
-          "followed": "2026-10-09",
-          "accepted": "2026-10-10",
-          "texts": [
-            "2026-10-13",
-            "2026-10-13"
-          ],
-          "chat": true,
-          "chatDate": "2026-10-13"
-        },
-        {
-          "handle": "nitesh_remax",
-          "name": "Nitesh Verma",
-          "followed": "2026-10-09",
-          "accepted": "2026-10-10",
-          "texts": [
-            "2026-10-13"
-          ],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "realtor.surjit",
-          "name": "Surjit Singh",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "realtorbaldevthind",
-          "name": "Baldev Thind",
-          "followed": "2026-10-10",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "ashwanisoodcpa",
-          "name": "Ashwani Sood CPA",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        },
-        {
-          "handle": "harkiran.realestate",
-          "name": "Harkiran Singh",
-          "followed": "2026-10-13",
-          "accepted": null,
-          "texts": [],
-          "chat": false,
-          "chatDate": null
-        }
-      ],
-      "prospects": [],
-      "days": {
-        "2026-10-09": {
-          "follows": 2,
-          "accepted": 0,
-          "texts": 0,
-          "chats": 0,
-          "flagged": 0
-        },
-        "2026-10-10": {
-          "follows": 2,
-          "accepted": 2,
-          "texts": 0,
-          "chats": 0,
-          "flagged": 0
-        },
-        "2026-10-13": {
-          "follows": 2,
-          "accepted": 0,
-          "texts": 3,
-          "chats": 1,
-          "flagged": 0
-        }
-      }
+    {
+     "handle": "raghavarora111",
+     "name": "Raghav Arora",
+     "followed": "2026-10-09",
+     "accepted": "2026-10-10",
+     "texts": [
+      "2026-10-13"
+     ],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "narinder.singh.rawat",
+     "name": "Narinder Singh Rawat",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "rithiksingh09",
+     "name": "Rithik Singh",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "prabhsharan01",
+     "name": "Singh In Waterloo",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "kwcmandeepphotography",
+     "name": "Mandeep Singh",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "the_photowala_inc",
+     "name": "Vikrant Singh",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "running__grvsandhu",
+     "name": "Gourav Singh Sandhu",
+     "followed": "2026-10-10",
+     "accepted": "2026-10-13",
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "amanbains93",
+     "name": "Amanjot Bains",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "yyz_udam",
+     "name": "Udam Singh Pawar",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "brarbrampton",
+     "name": "Brar Brampton",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "bainsmintu",
+     "name": "Mintu Bains",
+     "followed": "2026-10-13",
+     "accepted": "2026-10-13",
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "bajwabladez",
+     "name": "Manni BajwaBladez",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "harpal_.sandhu____",
+     "name": "Harpal Sandhu",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "sidhu_brampton",
+     "name": "Pardeep Singh Sidhu",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "ars0697_waterloo",
+     "name": "Arsh Singh",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "kutzzbyad",
+     "name": "Amrit Dhaliwal",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "virk_jabar_brampton",
+     "name": "Jabarjit Singh",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
     }
+   ],
+   "prospects": [],
+   "days": {
+    "2026-10-09": {
+     "follows": 2,
+     "accepted": 0,
+     "texts": 0,
+     "chats": 0,
+     "flagged": 0
+    },
+    "2026-10-10": {
+     "follows": 8,
+     "accepted": 2,
+     "texts": 0,
+     "chats": 0,
+     "flagged": 0
+    },
+    "2026-10-13": {
+     "follows": 8,
+     "accepted": 2,
+     "texts": 1,
+     "chats": 0,
+     "flagged": 17
+    }
+   }
+  },
+  "professionals": {
+   "people": [
+    {
+     "handle": "gurpreetcpa",
+     "name": "Gurpreet Singh",
+     "followed": "2026-10-09",
+     "accepted": "2026-10-10",
+     "texts": [
+      "2026-10-13",
+      "2026-10-13"
+     ],
+     "chat": true,
+     "chatDate": "2026-10-13"
+    },
+    {
+     "handle": "nitesh_remax",
+     "name": "Nitesh Verma",
+     "followed": "2026-10-09",
+     "accepted": "2026-10-10",
+     "texts": [
+      "2026-10-13"
+     ],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "realtor.surjit",
+     "name": "Surjit Singh",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "realtorbaldevthind",
+     "name": "Baldev Thind",
+     "followed": "2026-10-10",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "ashwanisoodcpa",
+     "name": "Ashwani Sood CPA",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    },
+    {
+     "handle": "harkiran.realestate",
+     "name": "Harkiran Singh",
+     "followed": "2026-10-13",
+     "accepted": null,
+     "texts": [],
+     "chat": false,
+     "chatDate": null
+    }
+   ],
+   "prospects": [],
+   "days": {
+    "2026-10-09": {
+     "follows": 2,
+     "accepted": 0,
+     "texts": 0,
+     "chats": 0,
+     "flagged": 0
+    },
+    "2026-10-10": {
+     "follows": 2,
+     "accepted": 2,
+     "texts": 0,
+     "chats": 0,
+     "flagged": 0
+    },
+    "2026-10-13": {
+     "follows": 2,
+     "accepted": 0,
+     "texts": 3,
+     "chats": 1,
+     "flagged": 0
+    }
+   }
   }
+ }
 }
