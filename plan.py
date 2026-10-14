@@ -14,7 +14,7 @@ def make():
     while True:
         ts = sorted(rnd.randint(mins(8, 0), mins(21, 30)) for _ in range(n))
         if all(b - a >= 75 for a, b in zip(ts, ts[1:])): break
-    adds = sorted(rnd.sample(range(mins(9, 0), mins(15, 30), 15), 5))
+    adds = sorted(rnd.sample(range(mins(9, 0), mins(19, 15), 15), 10))
     return {"inbox": [{"t": fmt(t), "done": False} for t in ts],
             "adds": [{"t": fmt(a), "done": False} for a in adds]}
 plan = json.load(open(path)) if os.path.exists(path) else make()
