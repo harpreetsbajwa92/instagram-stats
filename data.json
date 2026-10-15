@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T13:36:56-04:00",
+  "updated": "2026-10-15T09:36:27-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -246,6 +246,51 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "jay_gill_toronto",
+          "name": "Jay Gill",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "hdmississauga",
+          "name": "Harjinder Singh Dhami",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "harry_scarborough_02",
+          "name": "Mandeep Singh",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "sukhbirsinghtoronto",
+          "name": "Sukhbir Singh",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "vijaifrombrampton",
+          "name": "vijai kumar singh",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [],
@@ -275,6 +320,13 @@
           "follows": 8,
           "accepted": 0,
           "texts": 2,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-10-15": {
+          "follows": 5,
+          "accepted": 0,
+          "texts": 0,
           "chats": 0,
           "flagged": 0
         }
@@ -358,6 +410,24 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "vidursyal",
+          "name": "Vidur Syal",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "navjotchahal.ca",
+          "name": "Navjot S Chahal",
+          "followed": "2026-10-15",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -397,6 +467,13 @@
           "flagged": 2
         },
         "2026-10-14": {
+          "follows": 2,
+          "accepted": 0,
+          "texts": 0,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-10-15": {
           "follows": 2,
           "accepted": 0,
           "texts": 0,
