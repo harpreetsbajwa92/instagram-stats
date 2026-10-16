@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T11:21:09-04:00",
+  "updated": "2026-10-16T11:55:06-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -340,6 +340,60 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "gurbirsinghmaan",
+          "name": "Maan",
+          "followed": "2026-10-16",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "cricketer_9024",
+          "name": "NS 99",
+          "followed": "2026-10-16",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "hrandhawa26",
+          "name": "Harpreet Randhawa",
+          "followed": "2026-10-16",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "parminder690",
+          "name": "Parminder Sehna",
+          "followed": "2026-10-16",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "sherry_bhasin",
+          "name": "Sherry Bhasin",
+          "followed": "2026-10-16",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "sandeep_nogawa",
+          "name": "Sandeep Nogawa",
+          "followed": "2026-10-16",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [],
@@ -380,7 +434,7 @@
           "flagged": 0
         },
         "2026-10-16": {
-          "follows": 2,
+          "follows": 8,
           "accepted": 0,
           "texts": 1,
           "chats": 0,
