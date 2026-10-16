@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T17:12:22-04:00",
+  "updated": "2026-10-16T18:38:27-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -552,7 +552,7 @@
           "handle": "randeepthemortgageguy",
           "name": "Randeep Singh Brar",
           "followed": "2026-10-16",
-          "accepted": null,
+          "accepted": "2026-10-16",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -616,7 +616,7 @@
         },
         "2026-10-16": {
           "follows": 2,
-          "accepted": 0,
+          "accepted": 1,
           "texts": 0,
           "chats": 0,
           "flagged": 0
