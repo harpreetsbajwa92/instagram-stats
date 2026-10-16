@@ -44,11 +44,11 @@
   },
   {
    "t": "12:30",
-   "done": false
+   "done": true
   },
   {
    "t": "13:00",
-   "done": false
+   "done": true
   },
   {
    "t": "16:45",
