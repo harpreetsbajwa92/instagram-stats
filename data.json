@@ -564,19 +564,22 @@
           "handle": "gurpreetcpa",
           "name": "Gurpreet Singh",
           "date": "2026-10-13",
-          "note": "Professional: opener sent, Harpreet takes over"
+          "note": "Professional: opener sent, Harpreet takes over",
+          "track": "professionals"
         },
         {
           "handle": "nitesh_remax",
           "name": "Nitesh Verma",
           "date": "2026-10-13",
-          "note": "Professional: opener logged, Harpreet takes over"
+          "note": "Professional: opener logged, Harpreet takes over",
+          "track": "professionals"
         },
         {
           "handle": "vidursyal",
           "name": "Vidur Syal",
           "date": "2026-10-15",
-          "note": "Harpreet texted them himself"
+          "note": "Harpreet texted them himself",
+          "track": "professionals"
         }
       ],
       "days": {

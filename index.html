@@ -363,7 +363,7 @@
   </div>
 <script>
 /* Auto-refresh: publish.sh stamps BUILD and version.json on every publish. */
-const BUILD="20261016211106";
+const BUILD="20261016231750";
 (function () {
   var cur = BUILD, busy = false;
   async function check() {
@@ -435,9 +435,19 @@ const BUILD="20261016211106";
     renderProspects();
     if (window.NOSTORE) { const n = $("gpNote"); if (n) { n.style.display = "block"; n.textContent = "This viewer can\u2019t save deletes, so " + b.dataset.name + " will come back next time."; } }
   });
+  // Each Good prospect belongs to exactly ONE track (x.track, else the list it sits in).
+  // Gather from both tracks, keep one entry per handle, then show only this track's.
+  function prospectsOf(t) {
+    const want = tn(t), by = {};
+    TR.forEach((k) => (D.tracks[k].prospects || []).forEach((x) => {
+      const tk = tn(x.track || k), key = gpKey(x), prev = by[key];
+      if (!prev || (x.track && !prev.x.track) || (!!x.track === !!prev.x.track && String(x.date || "") > String(prev.x.date || ""))) by[key] = { x, tk };
+    }));
+    return Object.values(by).filter((o) => o.tk === want).map((o) => o.x);
+  }
   function renderProspects() {
     const el = $("gpList"), hidden = gpHidden();
-    const list = (T(track).prospects || []).filter((x) => !hidden.includes(gpKey(x))).slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+    const list = prospectsOf(track).filter((x) => !hidden.includes(gpKey(x))).slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
     $("gpCount").textContent = list.length;
     if (!list.length) { el.innerHTML = '<div class="cx-empty">No good prospects yet.</div>'; return; }
     el.innerHTML = list.map((x) => {
@@ -543,7 +553,7 @@ const BUILD="20261016211106";
   function detail(day) {
     const L = (arr) => arr.map((p) => '<a href="' + igUrl(p.handle) + '" target="_blank" rel="noopener">@' + escapeHTML(p.handle) + '</a>').join(", ") || "–";
     return tracksOf(filt).map((t) => {
-      const P = T(t).people || [], pr = (T(t).prospects || []).filter((x) => x.date === day);
+      const P = T(t).people || [], pr = prospectsOf(t).filter((x) => x.date === day);
       return '<div><b style="color:var(--text)">' + (t === "regular" ? "Regular" : "Professionals") + '</b></div>' +
         '<div>Followed: ' + L(P.filter((p) => p.followed === day)) + '</div>' +
         '<div>Accepted: ' + L(P.filter((p) => p.accepted === day)) + '</div>' +
@@ -605,6 +615,6 @@ const BUILD="20261016211106";
   renderAll(); load(); setInterval(load, 60000);
 })();
 </script>
-<div id="appVersion" style="text-align:center;font-size:11px;color:#64748b;padding:14px 0 28px;">App version: <span id="appVer">Oct 16, 9:11 PM (build 20261016211106)</span> (auto-refresh)</div>
+<div id="appVersion" style="text-align:center;font-size:11px;color:#64748b;padding:14px 0 28px;">App version: <span id="appVer">Oct 16, 11:17 PM (build 20261016231750)</span> (auto-refresh)</div>
 </body>
 </html>

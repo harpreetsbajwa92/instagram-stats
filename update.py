@@ -6,7 +6,13 @@ Add  --date YYYY-MM-DD  anywhere to backfill (default: today, Toronto).
   update.py accepted <handle>              (they followed back / accepted)
   update.py text <handle>                  (a text was sent; call per text)
   update.py chat <handle>                  (mark active chat)
-  update.py flag <handle> "note" [name]    (good prospect)
+  update.py flag <handle> "note" [name] [--pro | --regular | --track T]   (good prospect)
+        --pro      -> Professionals dashboard only (accountants, mortgage agents,
+                      realtors, tax consultants, business owners)
+        --regular  -> Regular dashboard only (regular people)
+        no flag    -> the track the person was add-follow'ed under
+      A prospect lives on exactly ONE track: flagging removes the handle from the
+      other track's Good prospects, so nobody shows on both.
   update.py set-day <regular|professionals> [--date D] [--follows N] [--accepted N]
                     [--texts N] [--chats N] [--flagged N]   (set/override a day's numbers)
   update.py show [--date D]
@@ -22,6 +28,10 @@ def opt(name, default=None):
     if name in a:
         i = a.index(name); v = a[i+1]; del a[i:i+2]; return v
     return default
+def flagopt(name):
+    if name in a: a.remove(name); return True
+    return False
+pro_f, reg_f, track_f = flagopt("--pro"), flagopt("--regular"), opt("--track")
 day = opt("--date") or datetime.datetime.now(TZ).date().isoformat()
 datetime.date.fromisoformat(day)
 h = lambda s: s.strip().lstrip("@").lower()
@@ -65,12 +75,25 @@ elif c in ("accepted", "text", "chat"):
     elif c == "text": p["texts"].append(day); bump(t, "texts")
     elif not p["chat"]: p["chat"] = True; p["chatDate"] = day; bump(t, "chats")
 elif c == "flag":
-    t, p = find(h(a[1]))
-    pr = d["tracks"][t]["prospects"]
+    if len(a) < 3: sys.exit(__doc__)
+    if pro_f + reg_f + bool(track_f) > 1: sys.exit("use only one of --pro / --regular / --track")
+    pt, p = find(h(a[1]))
+    t = "professionals" if pro_f else "regular" if reg_f else (track_f or pt)
+    if t in ("pro", "pros"): t = "professionals"
+    if t not in d["tracks"]: sys.exit("track must be regular or professionals")
     name = a[3] if len(a) > 3 else p.get("name", "")
-    if not any(x["handle"] == p["handle"] for x in pr): bump(t, "flagged")
-    pr[:] = [x for x in pr if x["handle"] != p["handle"]]
-    pr.append({"handle": p["handle"], "name": name, "date": day, "note": a[2]})
+    old = oldt = None
+    for tt, tr in d["tracks"].items():   # one track only: drop from every list first
+        for x in tr["prospects"]:
+            if x["handle"] == p["handle"] and not old: old, oldt = x, tt
+        tr["prospects"][:] = [x for x in tr["prospects"] if x["handle"] != p["handle"]]
+    if not old: bump(t, "flagged")
+    elif oldt != t:   # moved tracks: move its flagged count too
+        r = d["tracks"][oldt]["days"].get(old["date"])
+        if r and r["flagged"] > 0: r["flagged"] -= 1
+        d["tracks"][t]["days"].setdefault(old["date"], dict.fromkeys(KEYS, 0))["flagged"] += 1
+    d["tracks"][t]["prospects"].append({"handle": p["handle"], "name": name, "date": old["date"] if old else day, "note": a[2], "track": t})
+    if t != pt: print(f"note: {p['handle']} was followed under '{pt}' but is flagged as '{t}' prospect")
 elif c == "set-day":
     t = a[1]
     if t not in d["tracks"]: sys.exit("track must be regular or professionals")

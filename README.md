@@ -10,7 +10,7 @@ Dark, mobile-first. Page fetches data.json live (cache-busted, refreshes every 6
 - Footer line "App version: …" and no-cache meta tags; page re-fetches data.json every 60s.
 
 ## Good prospects
-Never deleted automatically. **Only Harpreet may remove entries** (the Delete button on the page only hides it on his device; the data stays in data.json). Do not remove entries from data.json without his instruction.
+Each prospect has a `track` field and lives on exactly ONE dashboard: professionals (accountants, mortgage agents, realtors, tax consultants, business owners) on Professionals, regular people on Regular. Never deleted automatically. **Only Harpreet may remove entries** (the Delete button on the page only hides it on his device; the data stays in data.json). Do not remove entries from data.json without his instruction.
 
 ## data.json
 `tracks.<regular|professionals>` has `people`, `prospects`, and `days`: `{ "YYYY-MM-DD": {follows, accepted, texts, chats, flagged} }`.
@@ -21,7 +21,9 @@ Never deleted automatically. **Only Harpreet may remove entries** (the Delete bu
     python3 update.py accepted somehandle      # followed back
     python3 update.py text somehandle          # text sent (call per text)
     python3 update.py chat somehandle          # active chat
-    python3 update.py flag somehandle "short note" ["Name"]   # good prospect
+    python3 update.py flag prohandle "short note" ["Name"] --pro       # good prospect, Professionals only
+    python3 update.py flag somehandle "short note" ["Name"] --regular  # good prospect, Regular only
+    (no --pro/--regular = the track they were add-follow'ed under; a prospect is on exactly one track)
     python3 update.py set-day regular --date 2026-10-07 --follows 8 --accepted 2 --texts 5 --chats 1 --flagged 0   # set/override a day
     python3 update.py show [--date D]
     ./publish.sh                               # git add/commit/push (uses gh credential helper)
