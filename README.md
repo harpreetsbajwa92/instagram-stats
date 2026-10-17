@@ -3,11 +3,14 @@ Live: https://harpreetsbajwa92.github.io/instagram-stats/ (repo harpreetsbajwa92
 Dark, mobile-first. Page fetches data.json live (cache-busted, refreshes every 60s). All dates are Toronto dates.
 
 ## Tabs (layout rebuilt to match the LinkedIn Stats app)
-- **Today** – header Regular / Professionals toggle, day ‹ › navigation, KPI grid (Follows done, Requests accepted + rate, Texts sent, Active chats), daily goal progress bar (8 regular / 2 professionals), People followed list with status, Good prospects.
+- **Today** – header Regular / Professionals toggle, day ‹ › navigation, KPI grid (Follows done, Requests accepted + rate, Texts sent, Active chats), daily goal progress bar (8 regular / 2 professionals), Good prospects (each with Open chat ig.me link).
 - **Trends** – Regular / Professionals / Combined filter; Weekly / Monthly / Yearly with ‹ › period navigation; summary, accept & reply rate, days hit goal, streaks, goal projection; bar charts (follows, accepted, texts, active chats); all-time totals.
-- **History** – day list newest first with same filter (Combined shows Reg+Pro split, green = goal hit); tap a day for handles.
+- **History** – day list newest first with same filter (Combined shows Reg+Pro split, green = goal hit); tap a day for that day's numbers + Good prospects flagged that day.
 - **Settings (⚙)** – how stats update, export JSON, goals.
 - Footer line "App version: …" and no-cache meta tags; page re-fetches data.json every 60s.
+
+## Simple view (Harpreet, Oct 16)
+The page shows ONLY stats numbers (follows, accepts, texts, chats, goal bar, trends) and the Good prospects list, each with an Open chat https://ig.me/m/<handle> link. No per-person follow/added lists anywhere (Today or History). data.json `people` and update.py still track everyone in the background; it is just not displayed.
 
 ## Good prospects
 Each prospect has a `track` field and lives on exactly ONE dashboard: professionals (accountants, mortgage agents, realtors, tax consultants, business owners) on Professionals, regular people on Regular. Never deleted automatically. **Only Harpreet may remove entries** (the Delete button on the page only hides it on his device; the data stays in data.json). Do not remove entries from data.json without his instruction.

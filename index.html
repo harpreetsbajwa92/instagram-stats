@@ -265,14 +265,6 @@
         <div id="gpNote" style="display:none;font-size:0.75rem;color:#fbbf24;background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.3);border-radius:10px;padding:8px 10px;margin-bottom:10px;"></div>
         <div id="gpList"></div>
       </div>
-      <div class="form-card" id="proCard">
-        <div style="display:flex;align-items:center;justify-content:space-between;">
-          <h2 style="margin:0;" id="proTitle">People followed</h2>
-          <span class="cx-count" id="proCount">0</span>
-        </div>
-        <p style="font-size:0.75rem;color:var(--text-dim);margin:4px 0 12px;">Everyone followed in this track. Status updates as they follow back, get texted and start chatting. Never cleared.</p>
-        <div id="proList"></div>
-      </div>
     </section>
 
     <section class="screen" id="screen-trends">
@@ -363,7 +355,7 @@
   </div>
 <script>
 /* Auto-refresh: publish.sh stamps BUILD and version.json on every publish. */
-const BUILD="20261016231750";
+const BUILD="20261016233756";
 (function () {
   var cur = BUILD, busy = false;
   async function check() {
@@ -455,20 +447,6 @@ const BUILD="20261016231750";
       return '<div class="cx-row" style="align-items:flex-start;"><div><div class="cx-name">' + link(x.handle) + '</div><div class="cx-sub">' + sub + '</div>' + (x.note ? '<div class="gp-why">' + escapeHTML(x.note) + '</div>' : '') + '</div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;"><a class="pro-status st-chat" style="text-decoration:none;" href="https://ig.me/m/' + encodeURIComponent(String(x.handle).replace(/^@/,'')) + '" target="_blank" rel="noopener">Open chat</a><span class="pro-status st-replied">Hot</span><button class="gp-del" data-key="' + escapeHTML(gpKey(x)) + '" data-name="' + escapeHTML(x.handle) + '">Delete</button></div></div>';
     }).join("");
   }
-  function renderPeople() {
-    const people = (T(track).people || []).slice().sort((a, b) => String(b.followed || "").localeCompare(String(a.followed || "")));
-    $("proTitle").textContent = track === "pros" ? "Professionals followed" : "People followed";
-    $("proCount").textContent = people.length;
-    const el = $("proList");
-    if (!people.length) { el.innerHTML = '<div class="cx-empty">No one followed yet. Each person shows up here as soon as I follow them.</div>'; return; }
-    el.innerHTML = people.map((x) => {
-      const chat = x.chat, acc = x.accepted, tx = (x.texts || []).length;
-      const label = chat ? "Active chat" : tx ? "Texted" : acc ? "Accepted" : "Followed";
-      const cls = chat ? "st-chat" : tx ? "st-messaged" : acc ? "st-accepted" : "st-pending";
-      const sub = [x.name, "Followed " + nice(x.followed), acc ? "Accepted " + nice(acc, false) : "", tx ? tx + " text" + (tx > 1 ? "s" : "") : ""].filter(Boolean).map(escapeHTML).join(" · ");
-      return '<div class="cx-row"><div><div class="cx-name">' + link(x.handle) + '</div><div class="cx-sub">' + sub + '</div></div><span class="pro-status ' + cls + '">' + label + '</span></div>';
-    }).join("");
-  }
   function renderToday() {
     const d = row(track, viewDate), goal = D.goals[tn(track)] || 0, tr = T(track);
     $("todayLabel").textContent = formatLabel(viewDate);
@@ -551,15 +529,12 @@ const BUILD="20261016231750";
 
   // ---- History ----
   function detail(day) {
-    const L = (arr) => arr.map((p) => '<a href="' + igUrl(p.handle) + '" target="_blank" rel="noopener">@' + escapeHTML(p.handle) + '</a>').join(", ") || "–";
+    const chat = (h) => '<a href="https://ig.me/m/' + encodeURIComponent(String(h).replace(/^@/, "")) + '" target="_blank" rel="noopener">Open chat</a>';
     return tracksOf(filt).map((t) => {
-      const P = T(t).people || [], pr = prospectsOf(t).filter((x) => x.date === day);
+      const r = row(t, day), pr = prospectsOf(t).filter((x) => x.date === day);
       return '<div><b style="color:var(--text)">' + (t === "regular" ? "Regular" : "Professionals") + '</b></div>' +
-        '<div>Followed: ' + L(P.filter((p) => p.followed === day)) + '</div>' +
-        '<div>Accepted: ' + L(P.filter((p) => p.accepted === day)) + '</div>' +
-        '<div>Texted: ' + L(P.filter((p) => (p.texts || []).includes(day))) + '</div>' +
-        '<div>Active chats: ' + L(P.filter((p) => p.chatDate === day)) + '</div>' +
-        '<div>Prospects: ' + (pr.map((x) => '<a href="' + igUrl(x.handle) + '" target="_blank" rel="noopener">@' + escapeHTML(x.handle) + '</a> – ' + escapeHTML(x.note || "")).join("; ") || "–") + '</div>';
+        '<div>' + r.follows + ' follows · ' + r.accepted + ' accepted · ' + r.texts + ' texts · ' + r.chats + ' active chats</div>' +
+        '<div>Good prospects: ' + (pr.map((x) => '<a href="' + igUrl(x.handle) + '" target="_blank" rel="noopener">@' + escapeHTML(x.handle) + '</a> (' + chat(x.handle) + ')' + (x.note ? ' – ' + escapeHTML(x.note) : '')).join("; ") || "–") + '</div>';
     }).join("");
   }
   function renderHistory() {
@@ -575,7 +550,7 @@ const BUILD="20261016231750";
   }
 
   function renderAll() {
-    renderToday(); renderPeople(); renderProspects(); renderTrends(); renderHistory();
+    renderToday(); renderProspects(); renderTrends(); renderHistory();
     const tg = $("targets"); if (tg) tg.textContent = "Daily follow goals — Regular: " + D.goals.regular + " · Professionals: " + D.goals.professionals + " (set in data.json).";
     document.querySelectorAll("#filterSegT .seg-btn, #filterSegH .seg-btn").forEach((b) => b.classList.toggle("active", b.dataset.f === filt));
   }
@@ -590,7 +565,7 @@ const BUILD="20261016231750";
   $("nextDay").addEventListener("click", () => { if (addD(viewDate, 1) > todayISO()) return; viewDate = addD(viewDate, 1); renderToday(); });
   document.querySelectorAll("#trackSeg .seg-btn").forEach((b) => b.addEventListener("click", () => {
     document.querySelectorAll("#trackSeg .seg-btn").forEach((x) => x.classList.remove("active")); b.classList.add("active");
-    track = b.dataset.track; renderToday(); renderPeople(); renderProspects();
+    track = b.dataset.track; renderToday(); renderProspects();
   }));
   document.querySelectorAll("#filterSegT .seg-btn, #filterSegH .seg-btn").forEach((b) => b.addEventListener("click", () => { filt = b.dataset.f; openDay = null; renderAll(); }));
   document.querySelectorAll("#trendSeg .seg-btn").forEach((b) => b.addEventListener("click", () => {
@@ -615,6 +590,6 @@ const BUILD="20261016231750";
   renderAll(); load(); setInterval(load, 60000);
 })();
 </script>
-<div id="appVersion" style="text-align:center;font-size:11px;color:#64748b;padding:14px 0 28px;">App version: <span id="appVer">Oct 16, 11:17 PM (build 20261016231750)</span> (auto-refresh)</div>
+<div id="appVersion" style="text-align:center;font-size:11px;color:#64748b;padding:14px 0 28px;">App version: <span id="appVer">Oct 16, 11:37 PM (build 20261016233756)</span> (auto-refresh)</div>
 </body>
 </html>
