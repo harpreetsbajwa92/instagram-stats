@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T10:18:07-04:00",
+  "updated": "2026-10-17T10:47:58-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -682,6 +682,13 @@
           "date": "2026-10-17",
           "note": "Professional: opener sent, Harpreet takes over",
           "track": "professionals"
+        },
+        {
+          "handle": "viditdeswal",
+          "name": "Vidit Deswal",
+          "date": "2026-10-17",
+          "note": "Lawyer in Toronto (UofT, called to the bar 2023), treated as a professional: replied 'Hi, I am good and you?' to our opener, Harpreet takes over",
+          "track": "professionals"
         }
       ],
       "days": {
@@ -732,7 +739,7 @@
           "accepted": 0,
           "texts": 1,
           "chats": 0,
-          "flagged": 1
+          "flagged": 2
         }
       }
     }
