@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T10:47:58-04:00",
+  "updated": "2026-10-17T12:15:15-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -414,7 +414,7 @@
           "handle": "onkarsingh.sachdeva",
           "name": "Onkar",
           "followed": "2026-10-17",
-          "accepted": null,
+          "accepted": "2026-10-17",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -441,7 +441,7 @@
           "handle": "ivraj_grewal",
           "name": "Ivraj Grewal",
           "followed": "2026-10-17",
-          "accepted": null,
+          "accepted": "2026-10-17",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -458,6 +458,15 @@
         {
           "handle": "gursewak_randhawa99",
           "name": "Gursewak Randhawa",
+          "followed": "2026-10-17",
+          "accepted": "2026-10-17",
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "jasdeep.ca",
+          "name": "Jasdeep",
           "followed": "2026-10-17",
           "accepted": null,
           "texts": [],
@@ -510,8 +519,8 @@
           "flagged": 0
         },
         "2026-10-17": {
-          "follows": 7,
-          "accepted": 0,
+          "follows": 8,
+          "accepted": 3,
           "texts": 3,
           "chats": 0,
           "flagged": 0
