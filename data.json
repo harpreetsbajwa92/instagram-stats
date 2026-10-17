@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T09:16:32-04:00",
+  "updated": "2026-10-17T10:18:07-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -330,7 +330,9 @@
           "name": "Vidit Deswal",
           "followed": "2026-10-16",
           "accepted": "2026-10-16",
-          "texts": [],
+          "texts": [
+            "2026-10-17"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -339,7 +341,9 @@
           "name": "Brar Varinder",
           "followed": "2026-10-16",
           "accepted": "2026-10-16",
-          "texts": [],
+          "texts": [
+            "2026-10-17"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -396,6 +400,69 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "g4_guri124",
+          "name": "Gurmukh Singh",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "onkarsingh.sachdeva",
+          "name": "Onkar",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "pargatchahal6",
+          "name": "Pargat Chahal",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "snehdeep__singh",
+          "name": "Snehdeep Singh",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "ivraj_grewal",
+          "name": "Ivraj Grewal",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "erdeepinderbrar",
+          "name": "Deepinder Brar",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "gursewak_randhawa99",
+          "name": "Gursewak Randhawa",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [],
@@ -443,9 +510,9 @@
           "flagged": 0
         },
         "2026-10-17": {
-          "follows": 0,
+          "follows": 7,
           "accepted": 0,
-          "texts": 1,
+          "texts": 3,
           "chats": 0,
           "flagged": 0
         }
@@ -562,6 +629,26 @@
           "name": "Randeep Singh Brar",
           "followed": "2026-10-16",
           "accepted": "2026-10-16",
+          "texts": [
+            "2026-10-17"
+          ],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "karansingh_mortgage",
+          "name": "Karan Singh",
+          "followed": "2026-10-17",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "hsidhu.ca",
+          "name": "Harman Sidhu",
+          "followed": "2026-10-17",
+          "accepted": null,
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -587,6 +674,13 @@
           "name": "Vidur Syal",
           "date": "2026-10-15",
           "note": "Harpreet texted them himself",
+          "track": "professionals"
+        },
+        {
+          "handle": "randeepthemortgageguy",
+          "name": "Randeep Singh Brar",
+          "date": "2026-10-17",
+          "note": "Professional: opener sent, Harpreet takes over",
           "track": "professionals"
         }
       ],
@@ -632,6 +726,13 @@
           "texts": 0,
           "chats": 0,
           "flagged": 0
+        },
+        "2026-10-17": {
+          "follows": 2,
+          "accepted": 0,
+          "texts": 1,
+          "chats": 0,
+          "flagged": 1
         }
       }
     }
