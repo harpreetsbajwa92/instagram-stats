@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T12:44:57-04:00",
+  "updated": "2026-10-18T13:17:50-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -477,6 +477,15 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "harkirat_singh_virdi",
+          "name": "Harkirat Singh",
+          "followed": "2026-10-18",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -539,7 +548,7 @@
           "flagged": 1
         },
         "2026-10-18": {
-          "follows": 0,
+          "follows": 1,
           "accepted": 0,
           "texts": 2,
           "chats": 0,
