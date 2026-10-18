@@ -24,7 +24,7 @@
  "adds": [
   {
    "t": "10:45",
-   "done": false
+   "done": true
   },
   {
    "t": "12:00",
