@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T18:42:27-04:00",
+  "updated": "2026-10-17T21:43:03-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -475,7 +475,15 @@
           "chatDate": null
         }
       ],
-      "prospects": [],
+      "prospects": [
+        {
+          "handle": "running__grvsandhu",
+          "name": "Gourav Singh Sandhu",
+          "date": "2026-10-17",
+          "note": "Harpreet texted them himself (8:08 PM 'Vadiya bro...'); chat was at OKAY-OKAY stage after Canada question",
+          "track": "regular"
+        }
+      ],
       "days": {
         "2026-10-09": {
           "follows": 2,
@@ -524,7 +532,7 @@
           "accepted": 3,
           "texts": 4,
           "chats": 0,
-          "flagged": 0
+          "flagged": 1
         }
       }
     },
