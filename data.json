@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T11:24:34-04:00",
+  "updated": "2026-10-18T12:44:57-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -686,7 +686,7 @@
           "handle": "realtorravisidhu",
           "name": "Ravi Sidhu",
           "followed": "2026-10-18",
-          "accepted": null,
+          "accepted": "2026-10-18",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -790,7 +790,7 @@
         },
         "2026-10-18": {
           "follows": 2,
-          "accepted": 0,
+          "accepted": 1,
           "texts": 0,
           "chats": 0,
           "flagged": 0
