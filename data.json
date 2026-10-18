@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T13:17:50-04:00",
+  "updated": "2026-10-18T13:58:30-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -486,6 +486,33 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "jaskarnbola",
+          "name": "Jaskarn Singh",
+          "followed": "2026-10-18",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "gsidhu._",
+          "name": "Gurbaksh Sidhu",
+          "followed": "2026-10-18",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "harmangrewal.__",
+          "name": "Harman Grewal",
+          "followed": "2026-10-18",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -548,7 +575,7 @@
           "flagged": 1
         },
         "2026-10-18": {
-          "follows": 1,
+          "follows": 4,
           "accepted": 0,
           "texts": 2,
           "chats": 0,
