@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T08:50:30-04:00",
+  "updated": "2026-10-19T10:00:53-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -549,6 +549,24 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "gurshhanvirk",
+          "name": "Gurshhan Virk",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "ranjit_gill4",
+          "name": "Ranjit Gill",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -614,6 +632,13 @@
           "follows": 8,
           "accepted": 0,
           "texts": 2,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-10-19": {
+          "follows": 2,
+          "accepted": 0,
+          "texts": 0,
           "chats": 0,
           "flagged": 0
         }
@@ -759,7 +784,9 @@
           "name": "Ravi Sidhu",
           "followed": "2026-10-18",
           "accepted": "2026-10-18",
-          "texts": [],
+          "texts": [
+            "2026-10-19"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -767,6 +794,24 @@
           "handle": "pawanjohalrealestate",
           "name": "Pawanpreet Johal",
           "followed": "2026-10-18",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "garydhaliwalremax",
+          "name": "Gary Dhaliwal",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "teamharmanbatta",
+          "name": "Harman Batta",
+          "followed": "2026-10-19",
           "accepted": null,
           "texts": [],
           "chat": false,
@@ -864,6 +909,13 @@
           "follows": 2,
           "accepted": 1,
           "texts": 0,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-10-19": {
+          "follows": 2,
+          "accepted": 0,
+          "texts": 1,
           "chats": 0,
           "flagged": 0
         }
