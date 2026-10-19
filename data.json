@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T10:00:53-04:00",
+  "updated": "2026-10-19T11:06:38-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -567,6 +567,60 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "armaan_gill1",
+          "name": "Armaan Gill",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "jass_dhaliwal0203",
+          "name": "Jasvir Singh Dhaliwal",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "jasmanvirkk",
+          "name": "Jasman Virk",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "harshgrewal03",
+          "name": "Harsh Grewal",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "s.sekh0n",
+          "name": "Sumeet Sekhon",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "karan.randhawa.2000",
+          "name": "Karan Randhawa",
+          "followed": "2026-10-19",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -636,7 +690,7 @@
           "flagged": 0
         },
         "2026-10-19": {
-          "follows": 2,
+          "follows": 8,
           "accepted": 0,
           "texts": 0,
           "chats": 0,
