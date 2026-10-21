@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T09:28:46-04:00",
+  "updated": "2026-10-21T09:47:46-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -715,6 +715,60 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "virk_pardeep_315",
+          "name": "Pardeep Singh Virk",
+          "followed": "2026-10-21",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "official_harjit.music",
+          "name": "Harjit Singh",
+          "followed": "2026-10-21",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "rubbal_grewal3600",
+          "name": "Rubbal Grewal",
+          "followed": "2026-10-21",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "satkarbajwa",
+          "name": "Satkar Bajwa",
+          "followed": "2026-10-21",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "ranjot0087",
+          "name": "Ranjot Singh",
+          "followed": "2026-10-21",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "keshavpanesar",
+          "name": "Keshav Singh Panesar",
+          "followed": "2026-10-21",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -798,7 +852,7 @@
           "flagged": 0
         },
         "2026-10-21": {
-          "follows": 2,
+          "follows": 8,
           "accepted": 0,
           "texts": 0,
           "chats": 0,
