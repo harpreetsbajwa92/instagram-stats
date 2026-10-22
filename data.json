@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T10:48:47-04:00",
+  "updated": "2026-10-22T11:53:43-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -788,6 +788,42 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "raman_maans",
+          "name": "Raman Maan",
+          "followed": "2026-10-22",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "jxgga03",
+          "name": "Jagsir Singh",
+          "followed": "2026-10-22",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "__karanbajwa",
+          "name": "Karan Bajwa",
+          "followed": "2026-10-22",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "balraj_jassar",
+          "name": "Balraj Singh Jassar",
+          "followed": "2026-10-22",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -878,7 +914,7 @@
           "flagged": 0
         },
         "2026-10-22": {
-          "follows": 2,
+          "follows": 6,
           "accepted": 4,
           "texts": 0,
           "chats": 0,
