@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T11:53:43-04:00",
+  "updated": "2026-10-22T12:12:10-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -824,6 +824,24 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "dhamraitharman",
+          "name": "Harman Dhamrait",
+          "followed": "2026-10-22",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "mvcx.07",
+          "name": "Manveer Chopra",
+          "followed": "2026-10-22",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -914,7 +932,7 @@
           "flagged": 0
         },
         "2026-10-22": {
-          "follows": 6,
+          "follows": 8,
           "accepted": 4,
           "texts": 0,
           "chats": 0,
