@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T10:57:36-04:00",
+  "updated": "2026-10-23T11:37:58-04:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -1229,7 +1229,7 @@
           "handle": "maninder.sohi_",
           "name": "Maninder Sohi",
           "followed": "2026-10-21",
-          "accepted": null,
+          "accepted": "2026-10-23",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -1397,7 +1397,7 @@
         },
         "2026-10-23": {
           "follows": 2,
-          "accepted": 0,
+          "accepted": 1,
           "texts": 1,
           "chats": 0,
           "flagged": 0
