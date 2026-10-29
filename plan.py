@@ -10,11 +10,13 @@ def mins(h, m): return h * 60 + m
 def fmt(t): return f"{t//60:02d}:{t%60:02d}"
 def make():
     rnd = random.Random()
-    n = rnd.randint(5, 7)
+    n = rnd.randint(3, 5)
     while True:
         ts = sorted(rnd.randint(mins(8, 0), mins(21, 30)) for _ in range(n))
-        if all(b - a >= 75 for a, b in zip(ts, ts[1:])): break
-    adds = sorted(rnd.sample(range(mins(9, 0), mins(19, 15), 15), 10))
+        if all(b - a >= 100 for a, b in zip(ts, ts[1:])): break
+    while True:
+        adds = sorted(rnd.randint(mins(9, 0), mins(19, 15)) for _ in range(rnd.randint(2, 3)))
+        if all(b - a >= 120 for a, b in zip(adds, adds[1:])): break
     return {"inbox": [{"t": fmt(t), "done": False} for t in ts],
             "adds": [{"t": fmt(a), "done": False} for a in adds]}
 plan = json.load(open(path)) if os.path.exists(path) else make()
