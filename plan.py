@@ -12,16 +12,18 @@ def make():
     rnd = random.Random()
     n = rnd.randint(3, 5)
     while True:
-        ts = sorted(rnd.randint(mins(8, 0), mins(21, 30)) for _ in range(n))
+        ts = sorted(rnd.randint(mins(12, 0), mins(20, 25)) for _ in range(n))
         if all(b - a >= 100 for a, b in zip(ts, ts[1:])): break
     while True:
-        adds = sorted(rnd.randint(mins(9, 0), mins(19, 15)) for _ in range(rnd.randint(2, 3)))
+        adds = sorted(rnd.randint(mins(12, 0), mins(20, 0)) for _ in range(rnd.randint(2, 3)))
         if all(b - a >= 120 for a, b in zip(adds, adds[1:])): break
     return {"inbox": [{"t": fmt(t), "done": False} for t in ts],
             "adds": [{"t": fmt(a), "done": False} for a in adds]}
 plan = json.load(open(path)) if os.path.exists(path) else make()
 if not os.path.exists(path): json.dump(plan, open(path, "w"), indent=1)
 kind = sys.argv[1]; cur = mins(now.hour, now.minute)
+if cur < mins(12, 0) or cur >= mins(21, 0):
+    print("SKIP - outside 12 PM-9 PM work window"); sys.exit(0)
 for s in plan[kind]:
     h, m = map(int, s["t"].split(":"))
     if not s["done"] and mins(h, m) <= cur:
