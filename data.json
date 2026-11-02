@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T20:29:38-05:00",
+  "updated": "2026-11-02T16:06:52-05:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -1285,7 +1285,9 @@
           "name": "Maninder Sohi",
           "followed": "2026-10-21",
           "accepted": "2026-10-23",
-          "texts": [],
+          "texts": [
+            "2026-11-02"
+          ],
           "chat": false,
           "chatDate": null
         },
@@ -1332,6 +1334,15 @@
           "handle": "realtorharshsingh",
           "name": "Harshdeep Singh",
           "followed": "2026-11-01",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "rajbir_singh_remax",
+          "name": "Rajbir Singh",
+          "followed": "2026-11-02",
           "accepted": null,
           "texts": [],
           "chat": false,
@@ -1478,6 +1489,13 @@
           "follows": 1,
           "accepted": 0,
           "texts": 0,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-11-02": {
+          "follows": 1,
+          "accepted": 0,
+          "texts": 1,
           "chats": 0,
           "flagged": 0
         }
