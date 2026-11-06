@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T14:53:24-05:00",
+  "updated": "2026-11-06T18:03:29-05:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -1355,7 +1355,7 @@
           "handle": "rajbir_singh_remax",
           "name": "Rajbir Singh",
           "followed": "2026-11-02",
-          "accepted": null,
+          "accepted": "2026-11-06",
           "texts": [],
           "chat": false,
           "chatDate": null
@@ -1364,6 +1364,15 @@
           "handle": "vj_immigration_brampton",
           "name": "VJ Immigration",
           "followed": "2026-11-03",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
+        },
+        {
+          "handle": "jaspreetgill_realestate",
+          "name": "Jaspreet Gill",
+          "followed": "2026-11-06",
           "accepted": null,
           "texts": [],
           "chat": false,
@@ -1535,8 +1544,8 @@
           "flagged": 0
         },
         "2026-11-06": {
-          "follows": 0,
-          "accepted": 0,
+          "follows": 1,
+          "accepted": 1,
           "texts": 1,
           "chats": 0,
           "flagged": 1
