@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T18:03:29-05:00",
+  "updated": "2026-11-07T12:46:10-05:00",
   "goals": {
     "regular": 8,
     "professionals": 2
@@ -947,6 +947,15 @@
           "texts": [],
           "chat": false,
           "chatDate": null
+        },
+        {
+          "handle": "arshesidhu",
+          "name": "Arsh Sidhu",
+          "followed": "2026-11-07",
+          "accepted": null,
+          "texts": [],
+          "chat": false,
+          "chatDate": null
         }
       ],
       "prospects": [
@@ -1082,6 +1091,13 @@
           "follows": 0,
           "accepted": 0,
           "texts": 1,
+          "chats": 0,
+          "flagged": 0
+        },
+        "2026-11-07": {
+          "follows": 1,
+          "accepted": 0,
+          "texts": 0,
           "chats": 0,
           "flagged": 0
         }
