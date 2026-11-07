@@ -2,11 +2,11 @@
  "inbox": [
   {
    "t": "12:42",
-   "done": false
+   "done": true
   },
   {
    "t": "15:50",
-   "done": false
+   "done": true
   },
   {
    "t": "19:46",
@@ -20,7 +20,7 @@
   },
   {
    "t": "16:23",
-   "done": false
+   "done": true
   },
   {
    "t": "18:59",
