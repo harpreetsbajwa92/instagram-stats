@@ -6,15 +6,15 @@
   },
   {
    "t": "14:39",
-   "done": false
+   "done": true
   },
   {
    "t": "16:35",
-   "done": false
+   "done": true
   },
   {
    "t": "18:18",
-   "done": false
+   "done": true
   },
   {
    "t": "20:15",
@@ -28,7 +28,7 @@
   },
   {
    "t": "19:47",
-   "done": false
+   "done": true
   }
  ]
 }
