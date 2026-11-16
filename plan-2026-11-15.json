@@ -10,11 +10,11 @@
   },
   {
    "t": "16:40",
-   "done": false
+   "done": true
   },
   {
    "t": "18:21",
-   "done": false
+   "done": true
   },
   {
    "t": "20:18",
@@ -28,7 +28,7 @@
   },
   {
    "t": "19:37",
-   "done": false
+   "done": true
   }
  ]
 }
